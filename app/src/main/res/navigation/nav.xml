@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/displayClothesFragment">
+
+    <fragment
+        android:id="@+id/displayClothesFragment"
+        android:name="com.example.assignment.ui.displayClothesFragment"
+        android:label="fragment_display_clothes"
+        tools:layout="@layout/fragment_display_clothes" />
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="com.example.assignment.ui.checkoutFragment"
+        android:label="checkoutFragment" />
+    <fragment
+        android:id="@+id/itemDetailsFragment"
+        android:name="com.example.assignment.ui.itemDetailsFragment"
+        android:label="itemDetailsFragment" />
+    <fragment
+        android:id="@+id/orderDetailsFragment"
+        android:name="com.example.assignment.ui.orderDetailsFragment"
+        android:label="orderDetailsFragment" />
+    <fragment
+        android:id="@+id/orderListingFragment"
+        android:name="com.example.assignment.ui.orderListingFragment"
+        android:label="orderListingFragment" />
+    <fragment
+        android:id="@+id/paymentFragment"
+        android:name="com.example.assignment.ui.paymentFragment"
+        android:label="paymentFragment" />
+</navigation>
